@@ -20,8 +20,8 @@
         </div>
         <div class="q-pb-sm">
         <label>Sex*</label>
-        <q-radio v-model="sex" :val="0" label="Male" />
-        <q-radio v-model="sex" :val="1" label="Female" />
+        <q-radio v-model="sex" :val="1" label="Male" />
+        <q-radio v-model="sex" :val="0" label="Female" />
         </div>
         <div class="q-pb-md">
         <label>Chest Pain Type*</label>
@@ -179,7 +179,7 @@ export default {
   data () {
     return {
       age: undefined,
-      sex: 0,
+      sex: 1,
       cp: 1,
       trtbps: undefined,
       chol: undefined,
