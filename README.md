@@ -14,3 +14,4 @@ Spring Boot
 # Model
 Python
 Flask
+Model : https://colab.research.google.com/drive/1_0gH7Az2Q0vgwwkxKlL8jfqgP6n6XknX?usp=sharing
